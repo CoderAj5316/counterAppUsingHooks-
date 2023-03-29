@@ -1,0 +1,20 @@
+footer
+{
+    height: 75px;
+    width: 100vw;
+    background-color: rgb(156, 142, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+footer p
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}

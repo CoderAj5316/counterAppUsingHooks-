@@ -1,0 +1,25 @@
+.Btn
+{
+   width: 100px;
+   height: 100px;
+   border-radius: 20px;
+   margin-top: 15%;
+   margin-left: -32%;
+   background-color: rgb(206, 41, 74);
+   border-style: none;
+   font-size: 30px;
+}
+
+.Btn:hover
+{
+    background-color: crimson;
+}
+
+label{
+
+    font-size: 40px;
+}
+
+div{
+
+}

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import NavBar from './components/NavBar';
+import 'antd/dist/reset.css';
+import Footer from './components/Footer';
+import Increament from './components/Increament';
+import { useState } from 'react';
+function App() 
+{
+  const [cnt,setCnt]=useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <NavBar/>
+      <Increament cnt={cnt} setCnt={setCnt}/>
+      <Footer cnt={cnt}/>   
     </div>
   );
 }
